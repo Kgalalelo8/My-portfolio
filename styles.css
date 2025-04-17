@@ -1,0 +1,120 @@
+body{
+
+    background-image:url(guitar-2886886_1920.jpg) ;
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding:0px;
+    margin:0px;
+}
+.navbar{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    
+    height:40px;
+}
+.logo{
+    float:right;
+}
+.header1 span{
+    color:black;
+}
+.navbar a{
+    text-decoration:none;
+    font-size: 15px;
+
+}
+.navbar a:hover{
+    color:white;
+    transition:0.5s ease;
+
+}
+
+.logo a{
+    font-size:20px;
+    align-items: center;
+    justify-content: space-between;
+    color:black;
+
+}
+.navbar ul{
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content:space-around;
+}
+
+.list li{
+    display:inline;
+    padding:20px;
+    
+ 
+}
+.about{
+    top: 100px;
+
+}
+
+.header1{
+    margin-top:80px;
+    margin-left: 60px;
+    top: 100px;
+    font-weight: bold;
+    font-family: Arial,sans-serif;
+    width:300px;
+    font-size:50px; 
+    color:white;
+}
+
+.heading{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.image1{display:flex;
+    align-items: center;
+    border-radius: 50%;
+    
+}
+
+.image{
+    margin-left:50px;
+    width:300px;
+    height:300px;
+    border-radius:50%
+}
+
+
+.about-me p{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.about-me{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-weight: bold;
+    font-family:Arial,sans-serif;
+    background-color:beige;
+    width:100px;
+    height:25px;
+    border-radius:10px;
+}
+
+
+.picture img {
+    margin-top: 10px;
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+    
+}
+.picture{
+    display:flex;
+    justify-content: space-between;
+    align-items: center ;
+
+}
